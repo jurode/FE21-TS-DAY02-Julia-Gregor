@@ -6,6 +6,49 @@
 //     Define 2 other Child classes and name them Motorbikes and Trucks
 //     Based on the personal vehicle performance model, kilometers left, number of seats, fuel type and year of production calculate the price once the user clicks on the button "show price" *use your dummy custom formula)
 
+// var cars : Array<{
+//     brand: string;
+//     model: string;
+//     wheels: number;
+//     doors: number;
+//     seats: number;
+//     fuelType: string;
+//     kilometers: number;
+//     productionYear: number;
+//     automaticGear: boolean;
+//     weight: number;
+//     color: string;
+// }> = [];
+
+// var trucks : Array<{
+//     brand: string;
+//     model: string;
+//     wheels: number;
+//     doors: number;
+//     seats: number;
+//     fuelType: string;
+//     kilometers: number;
+//     productionYear: number;
+//     automaticGear: boolean;
+//     weight: number;
+//     color: string;
+//     transportWeight: number;
+// }> = [];
+
+// var bikes : Array<{
+//     brand: string;
+//     model: string;
+//     wheels: number;
+//     doors: number;
+//     seats: number;
+//     fuelType: string;
+//     kilometers: number;
+//     productionYear: number;
+//     automaticGear: boolean;
+//     weight: number;
+//     color: string;
+//     maxSpeed: number;
+// }> = [];
 class Vehicles {
     brand: string;
     model: string;
@@ -54,4 +97,10 @@ class Motorbikes extends Vehicles{
     }
 }
 
-// TODO include JSON
+// import data from JSON
+let vehicles = JSON.parse(cars);
+let abfc = JSON.parse(trucks);
+let werafe : HTMLElement = JSON.parse(bikes);
+
+
+

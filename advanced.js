@@ -19,6 +19,47 @@ var __extends = (this && this.__extends) || (function () {
 //     Consider the inheritance concept
 //     Define 2 other Child classes and name them Motorbikes and Trucks
 //     Based on the personal vehicle performance model, kilometers left, number of seats, fuel type and year of production calculate the price once the user clicks on the button "show price" *use your dummy custom formula)
+// var cars : Array<{
+//     brand: string;
+//     model: string;
+//     wheels: number;
+//     doors: number;
+//     seats: number;
+//     fuelType: string;
+//     kilometers: number;
+//     productionYear: number;
+//     automaticGear: boolean;
+//     weight: number;
+//     color: string;
+// }> = [];
+// var trucks : Array<{
+//     brand: string;
+//     model: string;
+//     wheels: number;
+//     doors: number;
+//     seats: number;
+//     fuelType: string;
+//     kilometers: number;
+//     productionYear: number;
+//     automaticGear: boolean;
+//     weight: number;
+//     color: string;
+//     transportWeight: number;
+// }> = [];
+// var bikes : Array<{
+//     brand: string;
+//     model: string;
+//     wheels: number;
+//     doors: number;
+//     seats: number;
+//     fuelType: string;
+//     kilometers: number;
+//     productionYear: number;
+//     automaticGear: boolean;
+//     weight: number;
+//     color: string;
+//     maxSpeed: number;
+// }> = [];
 var Vehicles = /** @class */ (function () {
     function Vehicles(brand, model, wheels, doors, seats, fuelType, kilometers, productionYear, automaticGear, weight, color) {
         this.brand = brand;
@@ -57,4 +98,7 @@ var Motorbikes = /** @class */ (function (_super) {
     }
     return Motorbikes;
 }(Vehicles));
-// TODO include JSON
+// import data from JSON
+var vehicles = JSON.parse(cars);
+var abfc = JSON.parse(trucks);
+var werafe = JSON.parse(bikes);
